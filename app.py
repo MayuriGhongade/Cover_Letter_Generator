@@ -5,7 +5,7 @@ from docx import Document
 import io
 
 # Set up OpenAI API key (you should have your own API key)
-openai.api_key = "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"
+openai.api_key = "OPENAI_API_KEY"
 # Function to extract text from a PDF resume
 def extract_text_from_pdf(uploaded_file):
     doc = fitz.open(stream=uploaded_file.read(), filetype="pdf")
