@@ -29,26 +29,6 @@ Install the required dependencies using the `requirements.txt` file:
 pip install -r requirements.txt
 
 
-## Environment Setup
-1. **Python Environment** 
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # On Windows: venv\Scripts\activate
-   ```
-2. **OpenAI API Key Setup**:  
-   Add your OpenAI API key to environment variables:
-   ```bash
-   export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"  # For Linux/Mac
-   set OPENAI_API_KEY="YOUR_OPENAI_API_KEY"     # For Windows
-   ```
-   Alternatively, use Streamlit secrets management:
-   1. Create a `.streamlit/secrets.toml` file.
-   2. Add the following content:
-      ```plaintext
-      [openai]
-      api_key = "YOUR_OPENAI_API_KEY"
-      ```
-
 ## Usage
 1. Clone the repository:
    ```bash
