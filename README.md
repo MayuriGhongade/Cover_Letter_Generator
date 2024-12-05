@@ -25,20 +25,21 @@ This project is a **Streamlit-based web application** that generates professiona
 
 
 1. Clone the repository:
+   ```bash
    git clone https://github.com/MayuriGhongade/Cover_Letter_Generator.git
    cd Cover_Letter_Generator
    ```
-2. Install the dependencies:
+3. Install the dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the Streamlit application:
+4. Run the Streamlit application:
    ```bash
    streamlit run app.py
    ```
-4. Enter the job description and upload your resume (PDF or DOCX format).
-5. Click **Generate Cover Letter** to create the letter.
-6. Click **Download as DOCX** to save the generated cover letter.
+5. Enter the job description and upload your resume (PDF or DOCX format).
+6. Click **Generate Cover Letter** to create the letter.
+7. Click **Download as DOCX** to save the generated cover letter.
 
 ## Example
 1. Input a job description in the provided text area.
