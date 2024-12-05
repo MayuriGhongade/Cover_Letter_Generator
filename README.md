@@ -23,15 +23,8 @@ This project is a **Streamlit-based web application** that generates professiona
 - **Git**: For version control.
 - **VS Code**: Recommended IDE for development (optional).
 
-## Requirements
-Install the required dependencies using the `requirements.txt` file:
-```bash
-pip install -r requirements.txt
 
-
-## Usage
 1. Clone the repository:
-   ```bash
    git clone https://github.com/MayuriGhongade/Cover_Letter_Generator.git
    cd Cover_Letter_Generator
    ```
