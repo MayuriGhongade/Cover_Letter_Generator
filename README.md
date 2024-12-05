@@ -1,7 +1,6 @@
-```markdown
 # Cover Letter Generator
 
-This project is a **Streamlit-based web application** that generates professional, tailored cover letters using **OpenAI's GPT API**. Users can upload their resume in PDF or Word format and input a job description to create a customized cover letter in seconds.
+This project is a **Streamlit-based web application** that generates professional, tailored cover letters using **OpenAI's API**. Users can upload their resume in PDF or Word format and input a job description to create a customized cover letter in seconds.
 
 ## Features
 - **Resume Parsing**: Extracts text from PDF and DOCX files using `PyMuPDF` and `python-docx`.
@@ -28,7 +27,7 @@ This project is a **Streamlit-based web application** that generates professiona
 Install the required dependencies using the `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
-```
+
 
 ## Environment Setup
 1. **Python Environment** 
